@@ -47,3 +47,15 @@ footer {
 .icon {
     color: cyan;
 }
+
+.site-search {
+    margin-top: 2.2em;
+    padding: 1em;
+    direction: rtl;
+    background-color: #480342;
+    color: aliceblue;
+    font-size: medium;
+    outline: none;
+    min-width: 20em;
+    max-width: 40em;
+}
