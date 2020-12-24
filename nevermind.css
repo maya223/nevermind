@@ -1,0 +1,17 @@
+.mainDiv{
+    height: 100vh;
+    width: 100vw;
+    background-color: cyan;
+}
+
+nav {
+    height: 2em;
+    width: 100vw;
+    background-color: red;
+}
+
+footer {
+    height: 2em;
+    width: 100vw;
+    background-color: red;
+}
