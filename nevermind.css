@@ -1,17 +1,49 @@
-.mainDiv{
-    height: 100vh;
+body {
     width: 100vw;
-    background-color: cyan;
 }
 
 nav {
     height: 2em;
-    width: 100vw;
-    background-color: red;
+    background-color: #5e0856;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Bell MT";
 }
 
 footer {
     height: 2em;
-    width: 100vw;
-    background-color: red;
+    background-color: #480342;
+}
+
+.mainDiv{
+    height: 100vh;
+    background-color: #5e0856;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    margin: 1em;
+    color: yellow;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    align-items: center;
+    font-size: 2em;
+    margin: 1em;
+    text-decoration: none !important;
+}
+
+.link_text {
+    color: aliceblue;;
+}
+
+.icon {
+    color: cyan;
 }
